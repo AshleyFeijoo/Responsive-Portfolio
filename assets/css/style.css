@@ -189,6 +189,7 @@ h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
+  list-style:none;
 }
 
 #contact-form li {
@@ -284,6 +285,13 @@ input[type="submit"] {
    padding-right: 50px;
   }
 
+  ul {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+
 
 
 
@@ -323,17 +331,40 @@ input[type="submit"] {
   }
   .main-section {
   margin-top: 3em;
+  width:90vw;
   }
 
 
-.auth-image{
-  width: 100%;
-  padding: 2em;
-  margin: 0;
+  .auth-image{
+    width: 100%;
+    padding: 2em 0;
+    margin: 0;
+  }
+
+  p{
+    display:block;
+    /* font-size: 1.2em; */
+  }
+
+  .container.footer {
+      width: 100%;
+      margin: 0 auto;
+      padding: .8em 0;
+  }
+
+  .work {
+    width: 80vw;
+  }
+
+  ul {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  input[type="submit"] {
+    width: 100%;
 }
 
-p{
-  display:block;
 }
 
-}
