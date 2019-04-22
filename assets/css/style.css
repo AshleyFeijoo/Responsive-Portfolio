@@ -235,6 +235,13 @@ input[type="submit"] {
   text-align: center;
 }
 
+
+
+/* ANIMATIONS */
+
+.bounce-top{-webkit-animation:bounce-top .9s both;animation:bounce-top .9s both}
+
+
 /* Media Queries */
 
 /* Desktop =================================*/
